@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <title>혜정</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .container{
+      width: 800vw;
+      transition: transform 0.5s;
+    }
+    .inner{
+      width: 100vw;
+      float: left;
+    }
+    .inner img{
+      width: 100%;
+      height: 455px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">박혜정님의 보물상자</a></h1>
+  <ul class="go">
+    <a href="1.html">혜정</a>
+    <a href="2.html">명우</a>
+    <a href="3.html">현지</a>
+    <a href="4.html">승희</a>
+    <a href="5.html">영탁</a>
+  </ul>
+
+
+  <div style="overflow: hidden">
+    <div class="container">
+      <div class="inner">
+        <img src="엄마1.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마2.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마3.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마4.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마 단풍.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마 귀욤.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마 바다1.jpg">
+      </div>
+      <div class="inner">
+        <img src="엄마 바다2.jpg">
+      </div>
+    </div>
+  </div>
+  <h2>가장 소중한 보물 = 혜정</h2>
+  <div class="button">
+    <button class="bt1">1</button>
+    <button class="bt2">2</button>
+    <button class="bt3">3</button>
+    <button class="bt4">4</button>
+    <button class="bt5">5</button>
+    <button class="bt6">6</button>
+    <button class="bt7">7</button>
+    <button class="bt8">8</button>
+  </div>
+  <script>
+    document.querySelector('.bt1').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(0vw)';
+    });
+    document.querySelector('.bt2').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-100vw)';
+    });
+    document.querySelector('.bt3').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-200vw)';
+    });
+    document.querySelector('.bt4').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-300vw)';
+    });
+    document.querySelector('.bt5').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-400vw)';
+    });
+    document.querySelector('.bt6').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-500vw)';
+    });
+    document.querySelector('.bt7').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-600vw)';
+    });
+    document.querySelector('.bt8').addEventListener('click', function(){
+      document.querySelector('.container').style.transform = 'translate(-700vw)';
+    });
+
+  </script>
+
+
+</body>
+</html>
